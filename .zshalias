@@ -1,0 +1,15 @@
+alias ls='ls -GF --color'
+alias ll='ls -GFhl --color'
+alias grep='grep --color'
+alias m='make'
+alias mm='make -j4'
+
+alias lock_afk='chat afk && slock -m "phatina, afk" && chat on'
+alias lock_lunch='chat lunch && slock -m "phatina, lunch" && chat on'
+alias lock_mtg='chat mtg && slock -m "phatina, meeting" && chat on'
+alias lock='slock'
+alias suspend='xfce4-session-logout -s'
+
+alias gdbtui='gdb -tui'
+alias ipython='ipython --no-confirm-exit'
+alias tmux_session='tmux display-message -p "#S"'

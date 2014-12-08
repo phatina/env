@@ -1,0 +1,1 @@
+../contrib/vim-airline/autoload/airline.vim

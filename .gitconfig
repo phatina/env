@@ -1,0 +1,29 @@
+[core]
+	editor = /usr/bin/vim
+
+[user]
+	email = phatina@gmail.com
+	name = Peter Hatina
+
+[format]
+        signature = "Peter Hatina\n\nPGP:            6D35B403"
+
+[sendemail]
+	smtpserver = smtp.googlemail.com
+	confirm = always
+	chainreplyto = false
+
+[push]
+	default = tracking
+
+[giggle]
+	main-window-maximized = true
+	main-window-geometry = 1600x846+0+0
+	history-view-vpane-position = 275
+	main-window-view = HistoryView
+
+[color]
+	ui = auto
+
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit

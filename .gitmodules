@@ -1,0 +1,24 @@
+[submodule ".vim/contrib/vim-airline"]
+	path = .vim/contrib/vim-airline
+	url = https://github.com/bling/vim-airline.git
+[submodule ".vim/contrib/vim-colorschemes"]
+	path = .vim/contrib/vim-colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
+[submodule ".vim/contrib/vim-fuzzyfinder"]
+	path = .vim/contrib/vim-fuzzyfinder
+	url = https://github.com/vim-scripts/FuzzyFinder.git
+[submodule ".vim/contrib/vim-gitgutter"]
+	path = .vim/contrib/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule ".vim/contrib/vim-l9"]
+	path = .vim/contrib/vim-l9
+	url = https://github.com/vim-scripts/L9.git
+[submodule ".vim/contrib/vim-nerdtree"]
+	path = .vim/contrib/vim-nerdtree
+	url = https://github.com/vim-scripts/The-NERD-tree.git
+[submodule ".vim/contrib/vim-localrc"]
+	path = .vim/contrib/vim-localrc
+	url = https://github.com/thinca/vim-localrc.git
+[submodule ".vim/contrib/vim-trailing-whitespace"]
+	path = .vim/contrib/vim-trailing-whitespace
+	url = https://github.com/bronson/vim-trailing-whitespace.git
