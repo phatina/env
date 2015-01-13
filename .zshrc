@@ -30,7 +30,6 @@ autoload -U colors && colors
 setopt interactivecomments
 
 # Exports variables
-export GREP_OPTIONS='--color=auto'
 export PAGER='less'
 
 # Set up large history
