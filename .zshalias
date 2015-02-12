@@ -3,6 +3,7 @@ alias ll='ls -GFhl --color'
 alias grep='grep --color'
 alias m='make'
 alias mm='make -j4'
+alias e='vim'
 
 alias gdbtui='gdb -tui'
 alias ipython='ipython --no-confirm-exit'
