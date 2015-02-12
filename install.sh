@@ -1,5 +1,8 @@
 #!/bin/bash
 
+git submodule init
+git submodule update
+
 [ -L $HOME/.gdbinit ] || ln -s $PWD/.gdbinit $HOME
 [ -L $HOME/.gitconfig ] || ln -s $PWD/.gitconfig $HOME
 [ -L $HOME/.tmux.conf ] || ln -s $PWD/.tmux.conf $HOME
