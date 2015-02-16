@@ -56,6 +56,8 @@ if has("gui_running")
     set guioptions-=r
     set guifont=Inconsolata-g\ for\ Powerline\ Medium\ 9
     set mousemodel=popup
+    set guicursor=n-v-c-i:block-Cursor
+    set guicursor+=n-v-c-i:blinkon0
 
     " -------------
     " windows setup
