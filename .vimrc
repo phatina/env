@@ -118,3 +118,8 @@ inoremap <f12> <c-o>:NERDTreeToggle<cr>
 map  <c-tab> :FufBuffer<cr>
 map  <Leader>b :FufBuffer<cr>
 map  <Leader>o :FufFile<cr>
+
+" ------------------------------------------------------------------------------
+" Custom commands
+" ------------------------------------------------------------------------------
+command Gnu set sw=2 ts=2 sts=2 noet
