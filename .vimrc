@@ -22,6 +22,7 @@ set nowrap
 set hidden
 set ttimeoutlen=10
 set colorcolumn=80
+set undofile
 
 " ----------
 " Mouse mode
