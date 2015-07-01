@@ -123,4 +123,6 @@ map  <Leader>o :FufFile<cr>
 " ------------------------------------------------------------------------------
 " Custom commands
 " ------------------------------------------------------------------------------
-command Gnu set sw=2 ts=2 sts=2 noet
+command Gnu set sw=2 ts=2 sts=2 et
+command StatusReport e ~/Documents/status-report.txt
+command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
