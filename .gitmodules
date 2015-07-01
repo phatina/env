@@ -28,3 +28,6 @@
 [submodule ".vim/contrib/vim-emacsmodeline"]
 	path = .vim/contrib/vim-emacsmodeline
 	url = https://github.com/sfiera/vim-emacsmodeline.git
+[submodule ".tmux/contrib/tmux-resurrect"]
+	path = .tmux/contrib/tmux-resurrect
+	url = https://github.com/tmux-plugins/tmux-resurrect

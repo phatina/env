@@ -8,6 +8,7 @@ git submodule update
 # ------------------------------------------------------------------------------
 [ -L $HOME/.gdbinit ] || ln -s $PWD/.gdbinit $HOME
 [ -L $HOME/.gitconfig ] || ln -s $PWD/.gitconfig $HOME
+[ -L $HOME/.tmux ] || ln -s $PWD/.tmux $HOME
 [ -L $HOME/.tmux.conf ] || ln -s $PWD/.tmux.conf $HOME
 [ -L $HOME/.vim ] || ln -s $PWD/.vim $HOME
 [ -L $HOME/.vimrc ] || ln -s $PWD/.vimrc $HOME

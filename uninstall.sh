@@ -2,6 +2,7 @@
 
 [ -L $HOME/.gdbinit ] && unlink $HOME/.gdbinit
 [ -L $HOME/.gitconfig ] && unlink $HOME/.gitconfig
+[ -L $HOME/.tmux ] && unlink $HOME/.tmux
 [ -L $HOME/.tmux.conf ] && unlink $HOME/.tmux.conf
 [ -L $HOME/.vim ] && unlink $HOME/.vim
 [ -L $HOME/.vimrc ] && unlink $HOME/.vimrc
