@@ -17,6 +17,7 @@ git submodule update
 # ZSH
 # ------------------------------------------------------------------------------
 [ -L $HOME/.zshalias ] || ln -s $PWD/.zshalias $HOME
+[ -L $HOME/.zshfunctions ] || ln -s $PWD/.zshfunctions $HOME
 [ -L $HOME/.zshenv ] || ln -s $PWD/.zshenv $HOME
 #[ -L $HOME/.zsh ] || ln -s $PWD/.zsh $HOME
 #[ -L $HOME/.zshrc ] || ln -s $PWD/.zshrc $HOME
@@ -28,4 +29,5 @@ cat << EOF >> ~/.zshrc
 
 # Command aliases
 source ~/.zshalias
+source ~/.zshfunctions
 EOF

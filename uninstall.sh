@@ -7,6 +7,7 @@
 [ -L $HOME/.vim ] && unlink $HOME/.vim
 [ -L $HOME/.vimrc ] && unlink $HOME/.vimrc
 [ -L $HOME/.zshalias ] && unlink $HOME/.zshalias
+[ -L $HOME/.zshfunctions ] && unlink $HOME/.zshfunctions
 [ -L $HOME/.zshenv ] && unlink $HOME/.zshenv
 
 # For now, let's use Oh My ZSH
