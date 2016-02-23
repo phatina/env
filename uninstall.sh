@@ -11,7 +11,7 @@
 [ -L $HOME/.zshenv ] && unlink $HOME/.zshenv
 
 # For now, let's use Oh My ZSH
-#[ -L $HOME/.zsh ] && unlink $HOME/.zsh
+[ -L $HOME/.zsh ] && unlink $HOME/.zsh
 #[ -L $HOME/.zshrc ] && unlink $HOME/.zshrc
 [ -L $HOME/.zshrc ] && unlink $HOME/.zshrc
 [ -L $HOME/.oh-my-zsh ] && unlink $HOME/.oh-my-zsh
