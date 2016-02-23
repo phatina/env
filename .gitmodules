@@ -31,3 +31,6 @@
 [submodule ".tmux/contrib/tmux-resurrect"]
 	path = .tmux/contrib/tmux-resurrect
 	url = https://github.com/tmux-plugins/tmux-resurrect
+[submodule ".zsh/zshmarks"]
+	path = .zsh/zshmarks
+	url = git@github.com:phatina/zshmarks.git
