@@ -34,3 +34,6 @@
 [submodule ".zsh/zshmarks"]
 	path = .zsh/zshmarks
 	url = git@github.com:phatina/zshmarks.git
+[submodule ".zsh/custom/plugins/zshmarks"]
+	path = .zsh/custom/plugins/zshmarks
+	url = https://github.com/phatina/zshmarks.git
