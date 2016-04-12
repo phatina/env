@@ -55,7 +55,7 @@ if has("gui_running")
     set lines=65 columns=120
     set guioptions-=T
     set guioptions-=r
-    set guifont=Inconsolata-g\ for\ Powerline\ Medium\ 9
+    set guifont=Inconsolata-g\ for\ Powerline\ Medium\ 10
     set mousemodel=popup
     set guicursor=n-v-c-i:block-Cursor
     set guicursor+=n-v-c-i:blinkon0
