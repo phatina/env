@@ -37,3 +37,6 @@
 [submodule ".zsh/custom/plugins/zsh-autosuggestions"]
 	path = .zsh/custom/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule ".vim/contrib/vim-you-complete-me"]
+	path = .vim/contrib/vim-you-complete-me
+	url = https://github.com/Valloric/YouCompleteMe.git
