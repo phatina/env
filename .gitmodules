@@ -33,7 +33,7 @@
 	url = https://github.com/phatina/zshmarks.git
 [submodule ".vim/contrib/vim-emacsmodeline"]
 	path = .vim/contrib/vim-emacsmodeline
-	url = git@github.com:phatina/emacsmodeline.vim.git
+	url = https://github.com/phatina/emacsmodeline.vim.git
 [submodule ".zsh/custom/plugins/zsh-autosuggestions"]
 	path = .zsh/custom/plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions

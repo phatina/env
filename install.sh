@@ -30,5 +30,6 @@ cat << EOF >> ~/.zshrc
 # Command aliases
 source ~/.zshalias
 source ~/.zshfunctions
+source ~/.zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/custom/plugins/zshmarks/zshmarks.plugin.zsh
 EOF
