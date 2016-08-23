@@ -1,6 +1,6 @@
 typeset -U path
 
-path=(~/bin ~/.local/bin ~/Private/Install/texlive-2012/bin/x86_64-linux $path)
+path=(~/bin ~/.local/bin $path)
 fpath=(~/.zsh/completion $fpath)
 
 if test x"$TERM" = x"xterm"; then
