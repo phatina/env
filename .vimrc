@@ -106,6 +106,7 @@ let g:airline_powerline_fonts=1
 " ------------------------------------------------------------------------------
 noremap  <f12> :NERDTreeToggle<cr>
 inoremap <f12> <c-o>:NERDTreeToggle<cr>
+let g:NERDTreeWinSize=50
 
 " ------------------------------------------------------------------------------
 " fuzzy finder
