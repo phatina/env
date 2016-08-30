@@ -1,26 +1,7 @@
 ABOUT
 =====
 
-Working environment configuration files:
-
-- TMux
-  - Power Line
-- VIM
-  - Airline
-  - Color Schemes
-  - Fuzzy Finder
-  - GIT Gutter
-  - L9
-  - Local RC
-  - Nerd Tree
-  - Trailing Whitespace
-- Zsh
-
-
-LASTEST VERSION
-===============
-
-Lastest configuration files can be found at: [env][]
+My personal configuration of (N)Vim, TMux, ZSH and other CLI tools.
 
 
 INSTALLATION

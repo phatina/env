@@ -1,7 +1,6 @@
-#!/bin/bash
+#!/bin/zsh
 
-git submodule init
-git submodule update
+#git submodule update --init --recursive
 
 # ------------------------------------------------------------------------------
 # Various environment
@@ -13,23 +12,15 @@ git submodule update
 [ -L $HOME/.vim ] || ln -s $PWD/.vim $HOME
 [ -L $HOME/.vimrc ] || ln -s $PWD/.vimrc $HOME
 
-# ------------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 # ZSH
 # ------------------------------------------------------------------------------
-[ -L $HOME/.zshalias ] || ln -s $PWD/.zshalias $HOME
-[ -L $HOME/.zshfunctions ] || ln -s $PWD/.zshfunctions $HOME
-[ -L $HOME/.zshenv ] || ln -s $PWD/.zshenv $HOME
-[ -L $HOME/.zsh ] || ln -s $PWD/.zsh $HOME
-#[ -L $HOME/.zshrc ] || ln -s $PWD/.zshrc $HOME
-[ -L $HOME/.oh-my-zsh ] || ln -s $PWD/oh-my-zsh $HOME/.oh-my-zsh
-[ -L $HOME/.zshrc ] || ln -s $HOME/.oh-my-zsh/templates/zshrc.zsh-template $HOME/.zshrc
 
-# Append alias file to main rc
-cat << EOF >> ~/.zshrc
+# Install Prezto
+[ -L $HOME/.zprezto ] || ln -s $PWD/prezto $HOME/.zprezto
 
-# Command aliases
-source ~/.zshalias
-source ~/.zshfunctions
-source ~/.zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.zsh/custom/plugins/zshmarks/zshmarks.plugin.zsh
-EOF
+# Install ZSH dotfiles
+setopt EXTENDED_GLOB
+for rcfile in prezto/runcoms/^README.md(.N); do
+    [ -L $HOME/.$rcfile ] || ln -s "$PWD/$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+done

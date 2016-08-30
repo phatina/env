@@ -22,9 +22,6 @@
 [submodule ".vim/contrib/vim-trailing-whitespace"]
 	path = .vim/contrib/vim-trailing-whitespace
 	url = https://github.com/bronson/vim-trailing-whitespace.git
-[submodule "oh-my-zsh"]
-	path = oh-my-zsh
-	url = https://github.com/robbyrussell/oh-my-zsh.git
 [submodule ".tmux/contrib/tmux-resurrect"]
 	path = .tmux/contrib/tmux-resurrect
 	url = https://github.com/tmux-plugins/tmux-resurrect
@@ -40,3 +37,6 @@
 [submodule ".vim/contrib/vim-you-complete-me"]
 	path = .vim/contrib/vim-you-complete-me
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "prezto"]
+	path = prezto
+	url = https://github.com/phatina/prezto.git
