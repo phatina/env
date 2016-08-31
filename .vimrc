@@ -1,13 +1,22 @@
-" VIM configuration file by Peter Hatina <phatina@gmail.com>
-"
-" Plugins used:
-"   - airline
-"   - fuzzyfinder
-"   - gitgutter
-"   - localrc
-"   - nerdtree
-"   - trailing-whitespace
-"
+" ------------------------------------------------------------------------------
+" Plugins
+" ------------------------------------------------------------------------------
+call plug#begin('~/.vim/plugged')
+
+Plug 'vim-airline/vim-airline'
+Plug 'phatina/emacsmodeline.vim'
+Plug 'flazz/vim-colorschemes'
+Plug 'vim-scripts/FuzzyFinder'
+Plug 'airblade/vim-gitgutter'
+Plug 'vim-scripts/The-NERD-tree'
+Plug 'thinca/vim-localrc'
+Plug 'bronson/vim-trailing-whitespace'
+Plug 'vim-scripts/L9'
+" Plug 'Valloric/YouCompleteMe'
+Plug 'flazz/vim-colorschemes'
+
+call plug#end()
+
 " ------------------------------------------------------------------------------
 " Editor settings
 " ------------------------------------------------------------------------------
@@ -89,8 +98,6 @@ if has("gui_running")
     imap <c-del> <c-o>dw
     map  <c-z> u
     imap <c-z> <c-o>u
-else
-    set term=screen-256color
 endif
 
 " ------------------------------------------------------------------------------

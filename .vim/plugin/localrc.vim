@@ -1,1 +1,0 @@
-../contrib/vim-localrc/plugin/localrc.vim

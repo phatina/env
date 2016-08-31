@@ -11,6 +11,7 @@
 [ -L $HOME/.tmux.conf ] || ln -s $PWD/.tmux.conf $HOME
 [ -L $HOME/.vim ] || ln -s $PWD/.vim $HOME
 [ -L $HOME/.vimrc ] || ln -s $PWD/.vimrc $HOME
+[ -L $HOME/.config/nvim ] || ln -s $PWD/.config/nvim $HOME
 
 # -----------------------------------------------------------------------------
 # ZSH
