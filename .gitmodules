@@ -1,42 +1,6 @@
-[submodule ".vim/contrib/vim-airline"]
-	path = .vim/contrib/vim-airline
-	url = https://github.com/bling/vim-airline.git
-[submodule ".vim/contrib/vim-colorschemes"]
-	path = .vim/contrib/vim-colorschemes
-	url = https://github.com/flazz/vim-colorschemes.git
-[submodule ".vim/contrib/vim-fuzzyfinder"]
-	path = .vim/contrib/vim-fuzzyfinder
-	url = https://github.com/vim-scripts/FuzzyFinder.git
-[submodule ".vim/contrib/vim-gitgutter"]
-	path = .vim/contrib/vim-gitgutter
-	url = https://github.com/airblade/vim-gitgutter.git
-[submodule ".vim/contrib/vim-l9"]
-	path = .vim/contrib/vim-l9
-	url = https://github.com/vim-scripts/L9.git
-[submodule ".vim/contrib/vim-nerdtree"]
-	path = .vim/contrib/vim-nerdtree
-	url = https://github.com/vim-scripts/The-NERD-tree.git
-[submodule ".vim/contrib/vim-localrc"]
-	path = .vim/contrib/vim-localrc
-	url = https://github.com/thinca/vim-localrc.git
-[submodule ".vim/contrib/vim-trailing-whitespace"]
-	path = .vim/contrib/vim-trailing-whitespace
-	url = https://github.com/bronson/vim-trailing-whitespace.git
 [submodule ".tmux/contrib/tmux-resurrect"]
 	path = .tmux/contrib/tmux-resurrect
 	url = https://github.com/tmux-plugins/tmux-resurrect
-[submodule ".zsh/custom/plugins/zshmarks"]
-	path = .zsh/custom/plugins/zshmarks
-	url = https://github.com/phatina/zshmarks.git
-[submodule ".vim/contrib/vim-emacsmodeline"]
-	path = .vim/contrib/vim-emacsmodeline
-	url = https://github.com/phatina/emacsmodeline.vim.git
-[submodule ".zsh/custom/plugins/zsh-autosuggestions"]
-	path = .zsh/custom/plugins/zsh-autosuggestions
-	url = https://github.com/zsh-users/zsh-autosuggestions
-[submodule ".vim/contrib/vim-you-complete-me"]
-	path = .vim/contrib/vim-you-complete-me
-	url = https://github.com/Valloric/YouCompleteMe.git
 [submodule "prezto"]
 	path = prezto
 	url = https://github.com/phatina/prezto.git
