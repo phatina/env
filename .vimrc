@@ -12,8 +12,9 @@ Plug 'vim-scripts/The-NERD-tree'
 Plug 'thinca/vim-localrc'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'vim-scripts/L9'
-" Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe'
 Plug 'flazz/vim-colorschemes'
+Plug 'aklt/plantuml-syntax'
 
 call plug#end()
 
