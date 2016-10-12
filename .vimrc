@@ -34,6 +34,7 @@ set ttimeoutlen=10
 set colorcolumn=80
 set undofile
 set modeline
+set hlsearch
 
 " ----------
 " Mouse mode
