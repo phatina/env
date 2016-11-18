@@ -2,16 +2,11 @@
 	editor = /usr/bin/vim
 
 [user]
-	email = phatina@gmail.com
+	email = peter.hatina@kistler.com
 	name = Peter Hatina
 
 [format]
-        signature = "Peter Hatina\n\nPGP:            6D35B403"
-
-[sendemail]
-	smtpserver = smtp.googlemail.com
-	confirm = always
-	chainreplyto = false
+        signature = "Peter Hatina"
 
 [push]
 	default = tracking
