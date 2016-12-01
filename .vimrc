@@ -17,6 +17,7 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'flazz/vim-colorschemes'
 Plug 'aklt/plantuml-syntax'
 Plug 'embear/vim-localvimrc'
+Plug 'octol/vim-cpp-enhanced-highlight'
 
 call plug#end()
 
