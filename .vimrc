@@ -16,6 +16,7 @@ Plug 'vim-scripts/L9'
 Plug 'Valloric/YouCompleteMe'
 Plug 'flazz/vim-colorschemes'
 Plug 'aklt/plantuml-syntax'
+Plug 'embear/vim-localvimrc'
 
 call plug#end()
 
@@ -136,6 +137,11 @@ map  <Leader>o :FufFile<cr>
 " ------------------------------------------------------------------------------
 let g:ycm_confirm_extra_conf=0
 let g:ycm_autoclose_preview_window_after_insertion = 1
+
+" ------------------------------------------------------------------------------
+" Local vimrc
+" ------------------------------------------------------------------------------
+let g:localvimrc_ask=0
 
 " ------------------------------------------------------------------------------
 " Custom commands
