@@ -28,7 +28,7 @@ set expandtab
 set shiftwidth=4
 set softtabstop=4
 set smartindent
-set number
+set rnu
 set ic
 set incsearch
 set nowrap
