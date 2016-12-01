@@ -6,6 +6,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'phatina/emacsmodeline.vim'
 Plug 'flazz/vim-colorschemes'
+Plug 'sickill/vim-monokai'
 Plug 'vim-scripts/FuzzyFinder'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-scripts/The-NERD-tree'
