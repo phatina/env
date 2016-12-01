@@ -60,7 +60,7 @@ autocmd InsertLeave * let &l:foldmethod=w:last_fdm
 " --------------
 " Color settings
 " --------------
-colorscheme kolor
+colorscheme badwolf
 set cursorline
 
 " --------------------
