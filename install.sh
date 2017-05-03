@@ -11,6 +11,7 @@ git submodule update --init --recursive
 [ -L $HOME/.tmux.conf ] || ln -s $PWD/.tmux.conf $HOME
 [ -L $HOME/.vim ] || ln -s $PWD/.vim $HOME
 [ -L $HOME/.vimrc ] || ln -s $PWD/.vimrc $HOME
+[ -L $HOME/.ycm_extra_conf.py ] || ln -s $PWD/.ycm_extra_conf.py $HOME
 [ -L $HOME/.config/nvim ] || ln -s $PWD/.config/nvim $HOME
 
 # -----------------------------------------------------------------------------

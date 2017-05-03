@@ -7,6 +7,7 @@ configs=($HOME/.gdbinit \
          $HOME/.tmux.conf \
          $HOME/.vim \
          $HOME/.vimrc \
+         $HOME/.ycm_extra_conf.py \
          $HOME/.zshrc \
          $HOME/.zprezto \
          $HOME/.zshenv \
