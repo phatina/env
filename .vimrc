@@ -56,6 +56,7 @@ autocmd FileType c,cpp setlocal foldmethod=syntax
 autocmd FileType c,cpp normal zR
 autocmd InsertEnter * let w:last_fdm=&foldmethod | setlocal foldmethod=manual
 autocmd InsertLeave * let &l:foldmethod=w:last_fdm
+set nofoldenable
 
 " --------------
 " Color settings
