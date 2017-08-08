@@ -61,7 +61,7 @@ set nofoldenable
 " --------------
 " Color settings
 " --------------
-colorscheme badwolf
+colorscheme hybrid
 set cursorline
 
 " --------------------
