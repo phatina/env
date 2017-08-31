@@ -18,6 +18,7 @@ Plug 'flazz/vim-colorschemes'
 Plug 'aklt/plantuml-syntax'
 Plug 'embear/vim-localvimrc'
 Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
