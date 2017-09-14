@@ -19,6 +19,8 @@ Plug 'aklt/plantuml-syntax'
 Plug 'embear/vim-localvimrc'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'tpope/vim-fugitive'
+Plug 'SirVer/ultisnips'
+Plug 'phatina/vim-snippets'
 
 call plug#end()
 
@@ -145,6 +147,13 @@ let g:ycm_autoclose_preview_window_after_insertion = 1
 " Local vimrc
 " ------------------------------------------------------------------------------
 let g:localvimrc_ask=0
+
+" ------------------------------------------------------------------------------
+" SnipMate
+" ------------------------------------------------------------------------------
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 
 " ------------------------------------------------------------------------------
 " Custom commands
