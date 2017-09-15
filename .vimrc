@@ -18,6 +18,10 @@ Plug 'flazz/vim-colorschemes'
 Plug 'aklt/plantuml-syntax'
 Plug 'embear/vim-localvimrc'
 Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'toranb/vim-ack'
+Plug 'tpope/vim-fugitive'
+Plug 'SirVer/ultisnips'
+Plug 'phatina/vim-snippets'
 
 call plug#end()
 
@@ -56,11 +60,12 @@ autocmd FileType c,cpp setlocal foldmethod=syntax
 autocmd FileType c,cpp normal zR
 autocmd InsertEnter * let w:last_fdm=&foldmethod | setlocal foldmethod=manual
 autocmd InsertLeave * let &l:foldmethod=w:last_fdm
+set nofoldenable
 
 " --------------
 " Color settings
 " --------------
-colorscheme badwolf
+colorscheme hybrid
 set cursorline
 
 " --------------------
@@ -144,6 +149,13 @@ let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
 " Local vimrc
 " ------------------------------------------------------------------------------
 let g:localvimrc_ask=0
+
+" ------------------------------------------------------------------------------
+" SnipMate
+" ------------------------------------------------------------------------------
+let g:UltiSnipsExpandTrigger="<c-j>"
+let g:UltiSnipsJumpForwardTrigger="<c-j>"
+let g:UltiSnipsJumpBackwardTrigger="<c-k>"
 
 " ------------------------------------------------------------------------------
 " Custom commands
