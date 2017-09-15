@@ -65,7 +65,7 @@ set nofoldenable
 " --------------
 " Color settings
 " --------------
-colorscheme hybrid
+colorscheme hybrid_material
 set cursorline
 
 " --------------------
