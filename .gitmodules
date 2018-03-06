@@ -1,6 +1,8 @@
 [submodule ".tmux/contrib/tmux-resurrect"]
 	path = .tmux/contrib/tmux-resurrect
 	url = https://github.com/tmux-plugins/tmux-resurrect
+	ignore = dirty
 [submodule "prezto"]
 	path = prezto
 	url = https://github.com/sorin-ionescu/prezto.git
+	ignore = dirty
