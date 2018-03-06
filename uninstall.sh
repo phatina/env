@@ -20,3 +20,5 @@ configs=($HOME/.gdbinit \
 for config in $configs; do
     [ -L $config ] && unlink $config
 done
+
+git submodule deinit --all --force
