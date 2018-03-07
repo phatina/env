@@ -1,6 +1,8 @@
 #!/bin/zsh
 
 git submodule update --init --recursive
+[ -d prezto/modules/zshmarks ] || \
+    git clone git@github.com:jocelynmallon/zshmarks.git prezto/modules/zshmarks
 [ -d prezto/modules/personal ] || mkdir prezto/modules/personal
 cp -f prezto-runcoms/* prezto/runcoms
 rm -fr prezto/modules/personal
