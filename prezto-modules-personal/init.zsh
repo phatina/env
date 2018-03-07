@@ -16,7 +16,10 @@ alias gdbtui='gdb -tui'
 alias ipython='ipython --no-confirm-exit'
 
 # Git module mods
+alias ga='git add'
 alias gc!='git commit --amend'
+alias gd='git diff'
+alias gst='git status'
 
 # Function definitions
 function mkcd {
