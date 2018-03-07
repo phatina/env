@@ -24,6 +24,7 @@ cp -f prezto-modules-personal/* prezto/modules/personal/
 # -----------------------------------------------------------------------------
 # ZSH
 # ------------------------------------------------------------------------------
+[ -L $HOME/.zsh ] || ln -s -f $PWD/.zsh $HOME/.zsh
 
 # Install Prezto
 [ -L $HOME/.zprezto ] || ln -s -f $PWD/prezto $HOME/.zprezto

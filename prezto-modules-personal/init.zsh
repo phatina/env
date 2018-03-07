@@ -18,6 +18,7 @@ alias ipython='ipython --no-confirm-exit'
 # Git module mods
 alias ga='git add'
 alias gc!='git commit --amend'
+alias gcm='git checkout master'
 alias gd='git diff'
 alias gst='git status'
 
