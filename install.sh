@@ -2,8 +2,10 @@
 
 git submodule update --init --recursive
 [ -d prezto/modules/personal ] || mkdir prezto/modules/personal
-cp -n prezto-runcoms/* prezto/runcoms
-cp -n prezto-modules-personal/* prezto/modules/personal
+cp -f prezto-runcoms/* prezto/runcoms
+rm -fr prezto/modules/personal
+mkdir prezto/modules/personal
+cp -f prezto-modules-personal/* prezto/modules/personal/
 
 # ------------------------------------------------------------------------------
 # Various environment
@@ -22,10 +24,10 @@ cp -n prezto-modules-personal/* prezto/modules/personal
 # ------------------------------------------------------------------------------
 
 # Install Prezto
-[ -L $HOME/.zprezto ] || ln -s $PWD/prezto $HOME/.zprezto
+[ -L $HOME/.zprezto ] || ln -s -f $PWD/prezto $HOME/.zprezto
 
 # Install ZSH dotfiles
 setopt EXTENDED_GLOB
 for rcfile in prezto/runcoms/^README.md(.N); do
-    [ -L $HOME/.$rcfile ] || ln -s "$PWD/$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+    [ -L $HOME/.$rcfile ] || ln -s -f "$PWD/$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
 done
