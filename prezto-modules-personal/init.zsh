@@ -5,6 +5,7 @@ alias grep='grep --color'
 alias m='make'
 alias mm='make -j4'
 alias e='vim'
+alias ee='gvim'
 alias cp_ycm_extra_conf='cp ~/.vim/plugged/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py .'
 
 # Directory movement
