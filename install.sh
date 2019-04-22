@@ -1,6 +1,10 @@
 #!/bin/zsh
 
 git submodule update --init --recursive
+
+# ------------------------------------------------------------------------------
+# Prezto
+# ------------------------------------------------------------------------------
 [ -d prezto/modules/zshmarks ] || \
     git clone git@github.com:jocelynmallon/zshmarks.git prezto/modules/zshmarks
 [ -d prezto/modules/personal ] || mkdir prezto/modules/personal
@@ -19,7 +23,6 @@ cp -f prezto-modules-personal/* prezto/modules/personal/
 [ -L $HOME/.vim ] || ln -s -f $PWD/.vim $HOME
 [ -L $HOME/.vimrc ] || ln -s -f $PWD/.vimrc $HOME
 [ -L $HOME/.ycm_extra_conf.py ] || ln -s -f $PWD/.ycm_extra_conf.py $HOME
-[ -L $HOME/.config/nvim ] || ln -s $PWD/.config/nvim $HOME
 
 # -----------------------------------------------------------------------------
 # ZSH
