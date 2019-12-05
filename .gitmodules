@@ -6,3 +6,6 @@
 	path = prezto
 	url = https://github.com/sorin-ionescu/prezto.git
 	ignore = dirty
+[submodule ".tmux/contrib/tmux-continuum"]
+	path = .tmux/contrib/tmux-continuum
+	url = https://github.com/tmux-plugins/tmux-continuum
