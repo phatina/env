@@ -6,7 +6,7 @@
 	name = Peter Hatina
 
 [format]
-        signature = "Peter Hatina\n\nPGP:            891271D1"
+        signature = "Peter Hatina\n\nPGP: 12DC 9BD0 69E9 EB13"
 
 [sendemail]
 	smtpserver = smtp.googlemail.com
