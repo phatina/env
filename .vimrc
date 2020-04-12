@@ -22,6 +22,10 @@ Plug 'toranb/vim-ack'
 Plug 'tpope/vim-fugitive'
 Plug 'SirVer/ultisnips'
 Plug 'phatina/vim-snippets'
+Plug 'sirtaj/vim-openscad'
+Plug 'kien/ctrlp.vim'
+Plug 'mileszs/ack.vim'
+Plug 'vifm/vifm.vim'
 
 call plug#end()
 
