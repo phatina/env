@@ -166,3 +166,19 @@ command Gnu set sw=2 ts=2 sts=2 et
 command StatusReport e ~/Documents/status-report.txt
 command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
 command Q qa
+
+" ------------------------------------------------------------------------------
+" KiBox2 & Parameter Manager
+" ------------------------------------------------------------------------------
+function! EscapeJsonImpl()
+    silent %s/\n/\\r\\n/g
+    silent %s/"/\\"/g
+endfunction
+
+function! UnescapeJsonImpl()
+    silent %s/\\r\\n/\r/g
+    silent %s/\\"/"/g
+endfunction
+
+command EscapeJson   call EscapeJsonImpl()
+command UnescapeJson call UnescapeJsonImpl()
