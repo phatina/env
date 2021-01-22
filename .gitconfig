@@ -1,5 +1,6 @@
 [core]
 	editor = /usr/bin/vim
+	excludesfile = /home/phatina/.gitignore_global
 
 [user]
 	email = peter@hatina.eu
