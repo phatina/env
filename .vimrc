@@ -67,7 +67,7 @@ set nofoldenable
 " --------------
 " Color settings
 " --------------
-colorscheme hybrid_material
+colorscheme zenburn
 set cursorline
 
 " --------------------
