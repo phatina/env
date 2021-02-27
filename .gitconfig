@@ -7,12 +7,15 @@
 	name = Peter Hatina
 
 [format]
-        signature = "Peter Hatina\n\nPGP: 12DC 9BD0 69E9 EB13"
+        signature = "Peter Hatina\n\nPGP: D332 6896 105C 5638"
 
 [sendemail]
-	smtpserver = smtp.googlemail.com
+	smtpserver = mail.hatina.eu
 	confirm = always
 	chainreplyto = false
+	smtpencryption = tls
+	smtpuser = peter@hatina.eu
+	smtpserverport = 587
 
 [push]
 	default = tracking
